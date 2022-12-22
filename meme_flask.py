@@ -23,5 +23,7 @@ print("Hello how you doin")
 Name = input("hours old are you?")
 print ("welcome home" + Name + "plus dude")
 agree = input ("do you agree?")
-if agree != yes ;
+if agree != yes;
+   print("you are not the one")
+  
 
