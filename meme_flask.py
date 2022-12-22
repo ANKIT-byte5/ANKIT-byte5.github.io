@@ -20,3 +20,5 @@ def index():
 
 app.run(host="0.0.0.0", port=80)
 print("Hello how you doin")
+Name = input("hours old are you?")
+print ("welcome home" + Name + "plus dude")
