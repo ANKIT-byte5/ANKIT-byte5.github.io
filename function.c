@@ -1,21 +1,18 @@
 
 #include <stdio.h>
 
-void meow(int n);
+void discount(float price, int percentage);
 
 int main(void)
 {
-
+    float regular = get_float("Regular price: \n")
+    int percent_off =  get_int("Percent off: \n")
+    int sale = discount(regular, percent_off)
+    printf("Sale price: %.2f\n" sale)
   
-  {
-    meow(3);
-  }
-
 }
-void main(int n)
+
+void discount(folt price, int percentage)
 {
-    for (int i = 0; i < n; i++)
-    {
-       pirntf("meow\n")
-    }
+    return price * (100 - percentage) / 100
 }
