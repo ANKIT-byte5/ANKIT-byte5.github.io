@@ -1,0 +1,136 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   QR Ticket
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   /* Custom font weight for bold text in ticket details */
+    .font-semibold-custom {
+      font-weight: 600;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-black font-sans">
+  <div class="max-w-md mx-auto min-h-screen flex flex-col">
+   <!-- Header -->
+   <header class="flex items-center px-4 py-3 border-b border-gray-300">
+    <button aria-label="Back" class="mr-3 text-black text-xl">
+     <i class="fas fa-arrow-left">
+     </i>
+    </button>
+    <div class="flex items-center space-x-2 flex-grow">
+     <div class="w-8 h-8 rounded-full bg-blue-300 flex items-center justify-center">
+      <img alt="Blue circular icon with QR code symbol" class="w-4 h-4" height="16" src="https://storage.googleapis.com/a1aa/image/5f18792f-4437-4d72-7052-2ea52d2e75ed.jpg" width="16"/>
+     </div>
+     <span class="font-semibold text-base leading-5">
+      1 QR Ticket
+     </span>
+    </div>
+    <button class="text-blue-600 text-sm font-normal">
+     Help
+    </button>
+   </header>
+   <!-- Route -->
+   <div class="flex justify-center items-center mt-6 px-4">
+    <h1 class="font-extrabold text-lg sm:text-xl md:text-2xl leading-tight text-center max-w-full truncate">
+     Palanpur Pati...
+    </h1>
+    <span class="mx-2 font-extrabold text-lg sm:text-xl md:text-2xl">
+     →
+    </span>
+    <h1 class="font-extrabold text-lg sm:text-xl md:text-2xl leading-tight text-center max-w-full truncate">
+     Tadwadi Brts
+    </h1>
+   </div>
+   <!-- Scan instruction -->
+   <p class="text-center text-xs sm:text-sm mt-3 px-4">
+    Scan this QR at Entry &amp; Exit Points
+   </p>
+   <!-- QR Code -->
+   <div class="flex justify-center mt-4 px-4">
+    <img alt="Black and white QR code square pattern" class="w-60 h-60 sm:w-64 sm:h-64" height="240" src="https://storage.googleapis.com/a1aa/image/68f09202-20c6-4864-9967-bddf70d7921d.jpg" width="240"/>
+   </div>
+   <!-- Ticket validity -->
+   <div class="text-center mt-4 px-4">
+    <p class="text-xs sm:text-sm mb-1">
+     Your ticket is valid for
+    </p>
+    <div class="flex justify-center space-x-4 font-extrabold text-3xl sm:text-4xl">
+     <span>
+      01
+     </span>
+     <span>
+      :
+     </span>
+     <span>
+      59
+     </span>
+     <span>
+      :
+     </span>
+     <span>
+      15
+     </span>
+    </div>
+    <div class="flex justify-center space-x-10 text-[8px] sm:text-xs font-semibold mt-1 tracking-widest">
+     <span>
+      HOURS
+     </span>
+     <span>
+      MINUTES
+     </span>
+     <span>
+      SECONDS
+     </span>
+    </div>
+   </div>
+   <!-- Ticket Details -->
+   <section class="mt-6 border border-gray-300 rounded-md mx-4">
+    <button aria-expanded="true" class="w-full flex justify-between items-center px-4 py-3 text-left text-sm font-semibold border-b border-gray-300">
+     Ticket Details
+     <i class="fas fa-chevron-up text-gray-600">
+     </i>
+    </button>
+    <div class="px-4 py-3 space-y-3 text-xs sm:text-sm">
+     <div class="flex justify-between">
+      <span class="text-gray-700">
+       Issued On
+      </span>
+      <span class="font-semibold-custom">
+       08 Jun 2025, 02:55 PM
+      </span>
+     </div>
+     <div class="flex justify-between">
+      <span class="text-gray-700">
+       Order ID
+      </span>
+      <span class="font-semibold-custom">
+       25401325578
+      </span>
+     </div>
+     <div class="flex justify-between">
+      <span class="text-gray-700">
+       Order Item ID
+      </span>
+      <span class="font-semibold-custom">
+       26233495410
+      </span>
+     </div>
+     <div class="flex justify-between">
+      <span class="text-gray-700">
+       Ticket Type
+      </span>
+      <span class="font-semibold-custom">
+       1 Adult
+      </span>
+     </div>
+    </div>
+   </section>
+  </div>
+ </body>
+</html>
